@@ -1,12 +1,12 @@
 class Student{
-    constructor(name){
+    constructor(name) {
         this.name = name
         this.grades = []
     }
-    addGrade(grade){
+    addGrade(grade) {
         this.grades.push(grade)
     }
-    average(){
+    average() {
         let size = this.grades.length
         let sum = 0  
         if (this.grades.length === 0){
@@ -22,4 +22,4 @@ const student1 = new Student("Ani")
 student1.addGrade(9)
 student1.addGrade(2)
 student1.addGrade(7)
-console.log(`Միջին գնահատականը՝ ${student1.average()}`)
+console.log(`Average score is՝ ${student1.average()}`)

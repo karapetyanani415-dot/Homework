@@ -19,7 +19,7 @@ class BankAccount {
     }
 }
 
-const myAccount = new BankAccount("Ani");
-myAccount.deposit(200);
-myAccount.withdraw(300);
-console.log(`Final balance՝ ${myAccount.balance} dollar`);
+const myAccount = new BankAccount("Ani")
+myAccount.deposit(200)
+myAccount.withdraw(300)
+console.log(`Final balance՝ ${myAccount.balance} dollar`)
