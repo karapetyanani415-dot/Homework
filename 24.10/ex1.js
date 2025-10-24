@@ -1,15 +1,15 @@
 class rectangle{
-    constructor(width , heigth){
+    constructor(width , heigth) {
         this.width = width
         this.heigth = heigth
     }
-    area(){
+    area() {
         return this.width * this.heigth
     }
-    perimeter(){
+    perimeter() {
         return 2 * (this.width + this.heigth)
     }
 }
-const myRectangle = new rectangle(5, 3);
-console.log("Area", myRectangle.area());
-console.log("Perimeter", myRectangle.perimeter());
+const myRectangle = new rectangle(5, 3)
+console.log("Area", myRectangle.area())
+console.log("Perimeter", myRectangle.perimeter())
