@@ -21,35 +21,32 @@
 // good example
 class Bookkeeping {
     constructor(name, amount) {
-        if (new.target === Bookkeeping) {
-            throw new Error("Cannot instantiate abstract class")
-        }
         this.name = name
         this.amount = amount
     }
 
     calculateSalary() {
-        throw new Error("Method must be implemented")
+        return this.amount
     }
 }
 
 class Junior extends Bookkeeping {
     calculateSalary() {
-        return this.amount + 500
+        return super.calculateSalary() + 500
     }
 }
 class Middle extends Bookkeeping {
     calculateSalary() {
-        return this.amount + 1000
+        return super.calculateSalary() + 1000
     }
 }
 class Senior extends Bookkeeping {
     calculateSalary() {
-        return this.amount + 2000
+        return super.calculateSalary() + 2000
     }
 }
 class Lead extends Bookkeeping {
     calculateSalary() {
-        return this.amount + 3000
+        return super.calculateSalary() + 3000
     }
 }
