@@ -50,6 +50,6 @@ class Senior extends Bookkeeping {
 }
 class Lead extends Bookkeeping {
     calculateSalary() {
-        return this.amount + 3000;
+        return this.amount + 3000
     }
 }

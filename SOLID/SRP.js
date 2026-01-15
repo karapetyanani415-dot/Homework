@@ -1,30 +1,30 @@
 //bad example 
-class Account {
-    constructor(username, password) {
-        this.username = username
-        this.password = password
-    }
+// class Account {
+//     constructor(username, password) {
+//         this.username = username
+//         this.password = password
+//     }
 
-    createAccount() {
-        console.log("Account created")
-    }
+//     createAccount() {
+//         console.log("Account created")
+//     }
 
-    login() {
-        console.log("User logged in")
-    }
+//     login() {
+//         console.log("User logged in")
+//     }
 
-    logout() {
-        console.log("User logged out")
-    }
+//     logout() {
+//         console.log("User logged out")
+//     }
 
-    deleteAccount() {
-        console.log("Account deleted")
-    }
+//     deleteAccount() {
+//         console.log("Account deleted")
+//     }
 
-    generateReport() {
-        return `Account report for ${this.username}`
-    }
-}
+//     generateReport() {
+//         return `Account report for ${this.username}`
+//     }
+// }
 
 
 //good example
